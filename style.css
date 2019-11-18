@@ -6,7 +6,6 @@ body{
     align-items: flex-top;
     flex-direction: column;
     width: 100%;
-    max-width: 1100px;
 }
 
 .introContainer{
@@ -171,7 +170,7 @@ h5{
 
 p{
     color: black;
-    margin: 25px 0px 0px 0px;
+   
     padding: 35px 35px 20px 35px;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
@@ -200,13 +199,12 @@ p{
     width: 375px; 
 }
 
-
-
-.weather1{
-    width: 50%;
+.projectsContainer p{
+    margin: 0px;
+    padding: 15px 35px 20px 35px;
 }
 
-.weather img{
+.weather1 img{
     margin-top: 50px;
 }
 
@@ -232,11 +230,38 @@ p{
 }
 
 .skillbox{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     text-align: center; 
+    margin: 20px;
+    flex-basis: 20%;
 }
+
+.skillContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+}
+
+.codeBox{
+    margin-right: 10px;
+    
+}
+
+.toolboxBox{
+    margin-left: 10px;
+   
+}
+
+.upcomingBox{
+    margin-right: 10px;
+}
+
+.moreBox{
+    margin-left: 10px;
+}
+
 
 .otherProjects{
     color: #FF0000;
@@ -248,7 +273,8 @@ p{
 .list{
     color: #FF0000;
     font-weight: bold;
-    margin: 10px;   
+    margin: 10px; 
+    
 }
 
 footer{
@@ -305,7 +331,6 @@ footer{
     background-position: bottom;
     background-size: cover;
     height: 350px;
-   /* filter: brightness(0.8);*/
     }
     
 .whiteIconsSection{
@@ -350,6 +375,16 @@ footer{
     flex-basis:100%;
     background-color: #F4F4F4;
     width: 100%; 
+     
+}
+
+.weather2 img{
+    margin-top: 50px;
+}
+
+p{
+    padding: 35px 200px 60px 200px;
+   
 }
 
 .tech{
@@ -363,9 +398,36 @@ footer{
   
 }
 
+.projectsContainer p{
+    padding: 15px 35px 20px 100px;
+}
+
 .projects{
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+   
+}
+
+.weather p{
+    padding: 0px;
+    margin: 25px 0px 0px 50px; 
+    
+}
+
+.programs p{
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+}
+
+.weather5{
+    margin-bottom: 50px;
+}
+
+
+
+.programs{
+    margin: 10px 0px 0px 100px;
 }
 
 .thoughtsBox{
@@ -376,8 +438,20 @@ footer{
 
 
 .skills{
-    width: 100%;  
+    width: 100%; 
+     
 }
+
+.skillContainer{
+    width: 100%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+
+
 
 .more{
     width: 100%;
