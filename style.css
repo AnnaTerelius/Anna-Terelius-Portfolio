@@ -105,6 +105,10 @@ body{
     text-align: left;
 }
 
+.portfolio{
+    font-weight: normal;
+}
+
 .roundImage {
     width: 162px;
     height: 162px;
@@ -191,16 +195,22 @@ p{
     text-align: center;
 }
 
-.projects{
+.projectsContainer{
     background-color: #F4F4F4;
     width: 375px; 
 }
 
-.weather1 img{
+
+
+.weather1{
+    width: 50%;
+}
+
+.weather img{
     margin-top: 50px;
 }
 
-.thoughts{
+.thoughtsBox{
     background-color: #FFFFFF;
     width: 375px;
 }
@@ -292,7 +302,10 @@ footer{
     border: 1px solid #707070 opacity 0.26;
     background-image:url(pencilsLarge.jpg);
     background-repeat: no-repeat ;
-    background-position: center center;
+    background-position: bottom;
+    background-size: cover;
+    height: 350px;
+   /* filter: brightness(0.8);*/
     }
     
 .whiteIconsSection{
@@ -300,7 +313,11 @@ footer{
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 260px;
-    margin-top: 30px;
+    margin-top: 100px;
+}
+
+.orangeIconsSection{ 
+    margin: 50px 300px 0px;
 }
 
 .nameAndTitle{
@@ -309,7 +326,7 @@ footer{
     margin-top: 0px;
     margin-left: 200px;
     margin-bottom: 95px;
-    width: 70%;
+    width: 30%;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -321,10 +338,10 @@ footer{
     object-position: 0 0;
     border: 3px solid #FFFFFF;
     position: absolute;
-    top: 250px;
-    left: 500px;
-    width: 333px;
-    height: 333px;
+    top: 150px;
+    left: 60%;
+    width: 200px;
+    height: 200px;
 }
 
 .summary{
@@ -340,10 +357,34 @@ footer{
     width: 100%;
 }
 
-.projects{
+.projectsContainer{
     background-color: #F4F4F4;
     width: 100%; 
   
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+}
+
+.thoughtsBox{
+    width: 100%; 
+    
+}
+
+
+
+.skills{
+    width: 100%;  
+}
+
+.more{
+    width: 100%;
+}
+
+footer.contacts{
+    width: 100%;
 }
 
 }
