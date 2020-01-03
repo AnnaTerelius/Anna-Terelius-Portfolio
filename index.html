@@ -6,114 +6,163 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-
+</head>
+<body>
     <!-- Here goes the heropicture and white icons -->
     <title>Portfolio</title>
     <section class="introContainer">
-        <div class = "whiteIconsSection">   
-            <div class = "whiteIcons">
-                <a href ="https://www.linkedin.com">
-                <img class = "whiteIcon" src="linkedintouse.png" alt="linkedinlogo"></a>
-            </div>
-            <div class = "whiteIcons">
-                <a href="https://github.com/AnnaTerelius">
-                <img class = "whiteIcon" src="githubtouse.png" alt="githublogo"></a>
-            </div>
-            <div class = "whiteIcons">
-                <a href="https://stackoverflow.com/users/12132061/anna-terelius">
-                <img class = "whiteIcon" src="stackoverflowtouse.png" alt="stackoverflowlogo"></a>
-            </div>
-        </div> 
-        <!--Here goes the name and title/H1-->
-        <div class = "nameAndTitle">  
-            <h5><span class = "portfolio">PORTFOLIO:</span> ANNA TERELIUS</h5>
-            <h1>frontend developer</h1>
-            <h2>student at technigo</h2>
-        </div>   
-    </section>
+        <div class = "introContainerBox">
+            <div class = "whiteIconsSection">   
+                <div class = "whiteIcons">
+                    <a href ="https://www.linkedin.com">
+                    <img class = "whiteIcon" src="linkedintouse.png" alt="linkedinlogo"></a>
+                </div>
+                <div class = "whiteIcons">
+                    <a href="https://github.com/AnnaTerelius">
+                    <img class = "whiteIcon" src="githubtouse.png" alt="githublogo"></a>
+                </div>
+                <div class = "whiteIcons">
+                    <a href="https://stackoverflow.com/users/12132061/anna-terelius">
+                    <img class = "whiteIcon" src="stackoverflowtouse.png" alt="stackoverflowlogo"></a>
+                </div>
+            </div> 
+            <!--Here goes the name and title/H1-->
+            <div class = "nameAndTitle">  
+                <h5><span class = "portfolio">PORTFOLIO:</span> ANNA TERELIUS</h5>
+                <h1>frontend developer</h1>
+                <h2></h2>
+            </div>   
+        </section>
         <img class = "roundImage" src="anna.png" alt="picture of Anna Terelius">
-</head>
-<body>
+    </div>
+
     <!--Here goes the main container with smaller sections inside-->
     <div class = "mainContainer">
-    <!--Here goes the summary-->
+        <!--Here goes the summary-->
         <div class = "summary">
-            <p tabindex="0" >Hello! i'm a creative junior frontend develper with passion and grit. I love problem solving and to see things take form. </p>
+            <div class="summaryBox">
+                <p tabindex="0" >Hello! i'm a creative junior frontend develper with passion and grit. I love problem solving and to see things take form. </p>
+            </div>
         </div>
-    <!--Here goes the tech section-->
+        <!--Here goes the tech section-->
         <div tabindex="0" class = "tech">
             <div class = "spacer"></div>
             <h3>TECH</h3>
-            <p>HTML CSS Flexbox Javascript Github mob-programming pair-programming </p>
+            <p>HTML, CSS, Flexbox, Javascript, Github, ES6, React, React Hooks, React native, Redux, Node.js, Web Accessibly, mob-programming, API:s, pair-programming, Github </p>
         </div>
-         <!--Here goes the projects section-->
+        <!--Here goes the projects section-->
         <div tabindex="0" class = "projectsContainer">
             <div class = "spacer"></div>
             <h3>FEATURED PROJECTS</h3>
             <div class = "projects">
-                <div class = "weather1">
-                    <img src = "weatherPicture.png" alt="picture of weatherApp">
-                    <p><span style="color:#FF0000;font-weight:bold">WEATHER APP.</span> Web app build in Javascript using open weather API <a class = "redlinks"href="https://github.com/AnnaTerelius"><span style="color: #FF0000;font-weight:bold">&#62&#62</span></a></p>
+                <div class = "projectLeft">
+                    <img src = "moviesPicture.png" alt="picture of weatherApp">
+                    <p><span style="color:#FF0000;font-weight:bold">MOVIE APP.</span> Multipage Web app build in React using open movie API <a class = "redlinks"href="https://github.com/AnnaTerelius/project-movies"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
                     <div class = "programs">
                         <p>HTML5</p>
                         <p>CSS</p>
-                        <p>SASS</p>
-                        <p>JavascriptS6</p>
+                        <p>React</p>
+                        <p>Javascript ES6</p>
                     </div>
                 </div>
-                <div class = "weather2">
-                    <img src = "weatherPicture.png" alt="picture of weatherApp">
-                    <p><span style="color: #FF0000;font-weight:bold">WEATHER APP.</span> Web app build in Javascript using open weather API <a class = "redlinks"href="https://github.com/AnnaTerelius"><span style="color: #FF0000;font-weight:bold">&#62&#62</span></a></p>
+                <div class = "projectRight">
+                    <img src = "musicImage.png" alt="picture of musicApp">
+                    <p><span style="color: #FF0000;font-weight:bold">MUSIC APP.</span> Web app build in React using Spotify open API to show new albums and singles releases <a class="redlinks" href="https://github.com/AnnaTerelius/project-music-releases"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
                     <div class = "programs">
                         <p>HTML5</p>
                         <p>CSS</p>
-                        <p>SASS</p>
-                        <p>JavascriptS6</p>
+                        <p>React</p>
+                        <p>Javascript ES6</p>
                     </div>
                 </div>
             </div>
-            <p class = "otherProjects">OTHER PROJECTS</p>
-            <div class = "weather3">
-                <p><span style="color: #FF0000;font-weight:bold">WEATHER APP.</span> Web app build in Javascript using open weather API <a class = "redlinks"href="https://github.com/AnnaTerelius"><span style="color: #FF0000;font-weight:bold">&#62&#62</span></a></p>
-                <div class = "programs">
-                    <p>HTML5</p>
-                    <p>CSS</p>
-                    <p>SASS</p>
-                    <p>JavascriptS6</p>
+            <div class = "projects">
+                <div class = "projectLeft">
+                    <img src = "surveyImage2.png" alt="picture of weatherApp">
+                    <p><span style="color:#FF0000;font-weight:bold">SURVEY APP.</span> Web app build in Javascript using forms to submit your choise of cat to adopt <a class = "redlinks"href="https://github.com/AnnaTerelius/project-movies"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
+                    <div class = "programs">
+                        <p>HTML5</p>
+                        <p>CSS</p>
+                        <p>React</p>
+                        <p>Javascript ES6</p>
+                    </div>
+                </div>
+                <div class = "projectRight">
+                    <img src = "happyThoughtsPicture.png" alt="picture of weatherApp">
+                    <p><span style="color: #FF0000;font-weight:bold">HAPPY THOUGHTS APP.</span> Web app build in React using React state to fetch and post data to an API <a class="redlinks" href="https://github.com/AnnaTerelius/project-happy-thoughts"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
+                    <div class = "programs">
+                        <p>HTML5</p>
+                        <p>CSS</p>
+                        <p>React</p>
+                        <p>Javascript ES6</p>
+                    </div>
                 </div>
             </div>
-            <div class = "weather4">
-                <p><span style="color: #FF0000;font-weight:bold">WEATHER APP.</span> Web app build in Javascript using open weather API <a class = "redlinks"href="https://github.com/AnnaTerelius"><span style="color: #FF0000;font-weight:bold">&#62&#62</span></a></p>
+            <div class = "spacer"></div>
+            <div class="otherProjects">
+            <p class="otherProjectsHeader">OTHER PROJECTS</p>
+            <div class = "otherProject">
+                <p><span style="color: #FF0000;font-weight:bold">CLUEDO.</span> Simple game built in Javascript <a class="redlinks" href="https://github.com/AnnaTerelius/project-cluedo"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
                 <div class = "programs">
                     <p>HTML5</p>
                     <p>CSS</p>
-                    <p>SASS</p>
-                    <p>JavascriptS6</p>
+                    <p>React</p>
+                    <p>Javascript ES6</p>
                 </div>
             </div>
-            <div class = "weather5">
-                <p><span style="color: #FF0000;font-weight:bold">WEATHER APP.</span> Web app build in Javascript using open weather API <a class = "redlinks"href="https://github.com/AnnaTerelius"><span style="color: #FF0000;font-weight:bold">&#62&#62</span></a></p>
+            <div class = "otherProject">
+                <p><span style="color: #FF0000;font-weight:bold">WEATHER APP.</span> Web app built in Javascript using open weather API to present a 5-day forcast <a class = "redlinks"href="https://github.com/AnnaTerelius/project-weather-app"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
                 <div class = "programs">
                     <p>HTML5</p>
                     <p>CSS</p>
-                    <p>SASS</p>
-                    <p>JavascriptS6</p>
+                    <p>React</p>
+                    <p>Javascript ES6</p>
+                </div>
+            </div>
+            <div class = "otherProject">
+                <p><span style="color: #FF0000;font-weight:bold">PIZZA BOT.</span> Teamproject built in Javascript <a class = "redlinks"href="https://annamrsucodesproject4pizzabot.netlify.com/"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
+                <div class = "programs">
+                    <p>HTML5</p>
+                    <p>CSS</p>
+                    <p>React</p>
+                    <p>Javascript ES6</p>
+                </div>
+            </div>
+            <div class = "otherProject">
+                <p><span style="color: #FF0000;font-weight:bold">MACARONS.</span> A singel page buisness site with heroimage, HTML form and flexbox layout <a class = "redlinks"href="https://annamrsucodesproject4pizzabot.netlify.com/"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
+                <div class = "programs">
+                    <p>HTML5</p>
+                    <p>CSS</p>
+                    <p>React</p>
+                    <p>Javascript ES6</p>
                 </div>
             </div>
         </div>
-         <!--Here goes the thoughts section-->
+        <div class = "spacer"></div>
+        </div>
+        <!--Here goes the thoughts section-->
         <div tabindex="0" class = "thoughtsBox">
             <div class = "spacer"></div>
-            <h3>MY THOUGHTS</h3>
-            <div class = "thoughts">
-            <img class = "computerimg" src="computerpicture.png" alt="picture of a computer">
-            <p>blablablablablablabla</p>
+            <h3>MY THOUGHTS ABOUT CODE</h3>
+            <div class="thoughts">
+                <div class = "thoughtLeft">
+                    <img class = "computerimg" src="code.jpg" alt="picture of a code">
+                    <p><a class="redlinks" href="https://www.linkedin.com/in/anna-terelius-b7ab85190/detail/recent-activity/shares/"><span style="color: #FF0000;font-weight:bold">Sep 2019</span></a></p>
+                    <p> My thoughts after finishing the 1:st Sprint at Technigo bootcamp <a class="redlinks" href="https://www.linkedin.com/in/anna-terelius-b7ab85190/detail/recent-activity/shares/"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
+                </div>
+                <div class = "thoughtRight">
+                    <img class = "computerimg" src="umbrella.jpg" alt="picture of happy girl with umbrella">
+                    <p class="thoughtDate"><a class="redlinks" href="https://www.linkedin.com/in/anna-terelius-b7ab85190/detail/recent-activity/shares/"><span style="color: #FF0000;font-weight:bold">Dec 2019</span></a></p>
+                    <p>My 3 best tips for developer newbies <a class="redlinks" href="https://www.linkedin.com/in/anna-terelius-b7ab85190/detail/recent-activity/shares/"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
+                </div>
+                
+            </div>
+            <p class="otherProjectsHeader">MORE THOUGHTS</p>
+            <p><a class="redlinks" href="https://www.linkedin.com/in/anna-terelius-b7ab85190/detail/recent-activity/shares/"><span style="color: #FF0000;font-weight:bold">Jan 2020:</span></a> My thoughts after finishing the 3:rd Sprint at Technigo bootcamp <a class="redlinks" href="https://www.linkedin.com/in/anna-terelius-b7ab85190/detail/recent-activity/shares/"><span style="color: #FF0000;font-weight:bold">&#62;&#62;</span></a></p>
         </div>
-        </div>
-         <!--Here goes the skills section-->
-         <div tabindex="0" class = "skills">
+        <!--Here goes the skills section-->
+        <div tabindex="0" class = "skills">
             <div class = "spacer"></div>
             <h3>SKILLS</h3>
             <div class = "skillContainer">
@@ -122,54 +171,53 @@
                         <div class = "list">CODE</div>
                         <div>HTML5</div>
                         <div>CSS3</div>
-                        <div>JavascriptES6</div>
+                        <div>Javascript ES6</div>
                         <div>React</div>
-                        <div>GitHUb</div>
-                        <div>SASS</div>
+                        <div>React native</div>
+                        <div>GitHub</div>
                         <div>Node.js</div>    
                     </div>
                 </div>
                 <div class = "skillbox">
                     <div class = "toolboxBox">
                         <div class = "list">TOOLBOX</div>
-                        <div>HTML5</div>
-                        <div>CSS3</div>
-                        <div>JavascriptES6</div>
-                        <div>React</div>
-                        <div>GitHUb</div>
-                        <div>SASS</div>
-                        <div>Node.js</div> 
+                        <div>Slack</div>
+                        <div>VS Code</div>
+                        <div>npm</div>
+                        <div>Microsoft Excel</div>
+                        <div>Terminal</div>
+                        <div>Trello</div>
+                        <div></div> 
                     </div>
                 </div>
-            
                 <div class = "skillbox">
                     <div class = "upcomingBox">
                         <div class = "list">UPCOMING</div>
-                        <div>HTML5</div>
-                        <div>CSS3</div>
-                        <div>JavascriptES6</div>
-                        <div>React</div>
-                        <div>GitHUb</div>
-                        <div>SASS</div>
-                        <div>Node.js</div> 
+                        <div>Redux</div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div> 
                     </div>
                 </div>
                 <div class = "skillbox">
                     <div class = "moreBox">
                         <div class = "list">MORE</div>
-                        <div>HTML5</div>
-                        <div>CSS3</div>
-                        <div>JavascriptES6</div>
-                        <div>React</div>
-                        <div>GitHUb</div>
-                        <div>SASS</div>
-                        <div>Node.js</div> 
+                        <div>Agile methodology</div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div> 
                     </div>
                 </div>
             </div>
-        
+            <div class = "spacer"></div>
         </div>
-         <!--Here goes the for more section with orange icons-->
+        <!--Here goes the for more section with orange icons-->
         <div tabindex="0" class = "more">
                 <div class = "spacer"></div>
                 <h3>FOR MORE</h3>
@@ -194,7 +242,7 @@
                     </div>
                 </div>
         </div>
-         <!--Here goes the contacts section-->
+        <!--Here goes the contacts section-->
         <footer tabindex="0" class = "contacts">
             <h4>Contact</h4>
             <p class = "contacts">Anna Terelius</p>
