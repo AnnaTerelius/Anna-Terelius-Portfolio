@@ -123,6 +123,7 @@ body{
     top: 340px;
     left: 190px;
     position: absolute;
+    border: 2px solid white;
 }
 
 .mainContainer{
@@ -157,9 +158,16 @@ h3{
     font-size: 1.3em;
 }
 
+
+
 .spacer{
     flex-grow: 1;
-    height: 60px;
+    height: 40px;
+}
+
+.spacerSmall{
+    flex-grow: 1;
+    height: 20px;
 }
 
 h4{
@@ -244,14 +252,14 @@ p{
 }
 
 .projectLeft img{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 10px;
     width: 350px;
     height: 238px;
 }
 
 .projectRight img{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 10px;
     width: 350px;
     height: 238px;
@@ -312,7 +320,7 @@ p{
 }
 
 .more p{
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
 }
 
@@ -350,8 +358,9 @@ p{
     color: #FF0000;
     font-weight: bold;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.2em;
     padding-bottom: 0px;
+    margin: 0px;
 }
 
 .otherProjects{
@@ -403,7 +412,7 @@ footer{
     background-color:#FDDFE7;
     font-size: 0.8em;
     font-weight: bold;
-    margin: 2px 2px 40px 0px;
+    margin: 2px 2px 2px 0px;
     padding: 3px 8px;
 }
 
@@ -423,8 +432,12 @@ footer{
     background-position: bottom;
     background-size: cover;
     height: 300px;
-    }
-    
+}
+
+.spacer{
+    height: 60px;
+}
+
 .introContainerBox{
     width: 750px;
     margin-left: auto;
@@ -641,7 +654,9 @@ p{
     width: auto;
 }
 
-
+.otherProjectsHeader{
+    font-size: 1.6em;
+}
 
 .thoughts p{
     padding: 15px 35px 0px 0px;
@@ -664,6 +679,10 @@ p{
 
 .more{
     width: 100%;
+}
+
+.more p{
+    font-size: 1em;
 }
 
 footer.contacts{
