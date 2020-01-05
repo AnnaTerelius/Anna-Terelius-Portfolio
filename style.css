@@ -17,19 +17,25 @@ body{
     text-align: left;
     top: 0px;
     left: 0px;
-    width: 375px;
+    width: 100%;
     height: 508px;
     border: 1px solid #707070 opacity 0.26;
-    background-image:url(pencils.png);
+    background-image:url(molecularImage.jpg);
     background-repeat: no-repeat ;
     background-position: center center;
 }
+
+.introContainerBox{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
 .whiteIconsSection{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 25px;
+    /*margin-right: 25px;*/
     margin-top: 30px;
 }
 
@@ -73,9 +79,10 @@ body{
 }
 
 .orangeIcon{
-    width: 40px;
-    height: 40px;
-    padding: 30px;
+    
+    width: 30px;
+    height: 30px;
+    padding: 20px;
 }
 
 .iconP{
@@ -94,8 +101,8 @@ body{
 .nameAndTitle{
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
-    margin-left: 30px;
+    margin-top: 30px;
+   /* margin-left: 30px;*/
     margin-bottom: 95px;
     width: 70%;
     color: #FFFFFF;
@@ -113,9 +120,8 @@ body{
     border-radius: 50%;
     object-fit: cover;
     object-position: 0 0;
-    border: 3px solid #FFFFFF;
-    top: 350px;
-    left: 180px;
+    top: 340px;
+    left: 190px;
     position: absolute;
 }
 
@@ -168,7 +174,7 @@ h5{
 
 p{
     color: black;
-    padding: 35px 200px 20px 200px;
+    /*padding: 35px 200px 20px 200px;*/
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
@@ -179,38 +185,40 @@ p{
     text-align: left;
     flex-basis:100%;
     background-color: #F4F4F4;
-    width: 375px; 
+    width: 100%;
 }
 
 .summaryBox{
-    width: 750px;
+   width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .summaryBox p{
-    width: 750px;
-    padding-left: 0px;
-    padding-right: 0px;
+   
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+
 
 .tech{
     background-color: #FFFFFF;
-    width: 750px;
+    width: 330px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .tech p{
     text-align: center;
-    width: 750px;
+    width: 300px;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 .projectsContainer{
     background-color: #F4F4F4;
-    width: 375px; 
+    width: 100%; 
 }
 
 .projectsContainer img + p{
@@ -219,14 +227,14 @@ p{
 }
 
 .projectLeft{
-    text-align: left;
-  
+    width: 350px;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .projectRight{
-    text-align: left;
- 
+    width: 350px;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -245,9 +253,10 @@ p{
 
 .thoughtsBox{
     background-color: #FFFFFF;
-    width: 375px;
-    margin-left: 15%;
-    margin-right: 15%;
+   
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thoughtsBox p{
@@ -286,7 +295,7 @@ p{
 
 .skills{
     background-color: #F4F4F4;
-    width: 375px;
+    width: 100%;
     
     font-family: 'Montserrat', sans-serif;
 }
@@ -331,12 +340,13 @@ p{
     font-weight: bold;
     text-align: center;
     font-size: 1.8em;
+    padding-bottom: 0px;
 }
 
 .otherProjects{
     margin-left: auto;
     margin-right: auto;
-    width: 750px;
+    width: 350px;
 }
 
 
@@ -349,7 +359,7 @@ p{
 footer{
     background-color: #0E3070;
     /* background-color:#072BCE; */
-    width: 375px;
+    width: 100%;
     color: #FFFFFF;
     padding-bottom: 70px;
 }
@@ -408,7 +418,8 @@ footer{
     width: 750px;
     margin-left: auto;
     margin-right: auto;
-}    
+}  
+
 .whiteIconsSection{
     display: flex;
     flex-direction: row;
@@ -419,6 +430,12 @@ footer{
 
 .orangeIconsSection{ 
     margin: 50px 300px 0px;
+}
+
+.orangeIcon{
+    width: 40px;
+    height: 40px;
+    padding: 30px;
 }
 
 .nameAndTitle{
@@ -440,7 +457,7 @@ footer{
     border: 3px solid #FFFFFF;
     position: absolute;
     top: 130px;
-    left: 58%;
+    left: 59%;
     width: 200px;
     height: 200px;
 }
@@ -453,6 +470,18 @@ footer{
     width: 100%;   
 }
 
+.summaryBox p{
+    
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.summaryBox{
+    width: 750px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .weather2 img{
     margin-top: 50px;
 }
@@ -461,9 +490,27 @@ p{
     padding: 35px 200px 60px 200px;
 }
 
+p{
+    color: black;
+    padding: 35px 200px 60px 200px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
 .tech{
     background-color: #FFFFFF;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+
+
+.tech p{
+    text-align: center;
+    width: 750px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .projectsContainer{
@@ -471,8 +518,23 @@ p{
     width: 100%; 
 }
 
+
+
 .projectsContainer p{
     padding: 15px 35px 20px 0px;
+}
+
+.projectLeft{
+    text-align: left;
+    margin-left: auto;
+   
+}
+
+.projectRight{
+    text-align: left;
+    margin-right: auto; 
+   
+
 }
 
 .projects{
@@ -481,6 +543,7 @@ p{
     align-items: flex-start;
     margin-right: auto;
     margin-left: auto;
+    width: 750px;
 }
 
 .weather p{
@@ -497,6 +560,11 @@ p{
     margin-bottom: 50px;
 }
 
+.otherProjects{
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
 
 .otherProject p{
     padding:0px;
@@ -505,6 +573,7 @@ p{
 
 .thoughtsBox{
     width: 100%;  
+    
 }
 
 
