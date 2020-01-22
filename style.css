@@ -41,15 +41,16 @@ body{
 
 .whiteIcons{
     display: flex;
-    margin-right: 10px;
+    margin-left: 10px;
     border: white solid 3px;
     border-radius: 100%;
     align-items: center;
+    padding: 4px;
 }
 
 .whiteIcon{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     padding: 7px;
     margin: 0px 4px ;  
 }
@@ -113,6 +114,22 @@ body{
 .portfolio{
     font-weight: normal;
 }
+
+.line{
+    color: #FA382F; 
+      
+}
+
+.linecircle{
+    width: 4px;
+    height: 4px;
+    padding: 4px;
+    position: relative;
+    margin-right: 5px;
+    background-color: #FA382F;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 .roundImage {
     width: 162px;
@@ -186,6 +203,7 @@ p{
     /*padding: 35px 200px 20px 200px;*/
     font-family: 'Montserrat', sans-serif;
     text-align: left;
+    
 }
 
 
@@ -242,13 +260,21 @@ p{
     width: 350px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
     
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+   
 }
 
 .projectRight{
     width: 350px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .projectLeft img{
@@ -287,6 +313,11 @@ p{
 .thoughts{
     display: flex;
     flex-direction: column;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .thoughts p{
