@@ -115,8 +115,12 @@ body{
     font-weight: normal;
 }
 
-.line{
-    color: #FA382F; 
+.line{ 
+    position: relative;
+    top: -8px;
+    font-weight: bolder;
+    color: #FA382F;
+    font-family: 'Montserrat', sans-serif;
       
 }
 
